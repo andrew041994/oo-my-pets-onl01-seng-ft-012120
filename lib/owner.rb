@@ -69,7 +69,7 @@ end
   def sell_pets
     dogs.each do |i|
       if i.mood != "nervous"
-        i.mood = "nervous" &&   i.owner = nil
+        i.mood = "nervous"
       end
     end
     # cats.each {|i|i.mood = "nervous" && owner = nil}
