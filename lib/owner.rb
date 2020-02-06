@@ -72,6 +72,8 @@ end
         i.mood = "nervous"
       else
         i.owner = nil
+      end
+    end
     # cats.each {|i|i.mood = "nervous" && owner = nil}
   end
 
