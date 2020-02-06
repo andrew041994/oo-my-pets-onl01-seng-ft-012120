@@ -69,6 +69,8 @@ end
   def sell_pets
     dogs.each {|i| i.mood = "nervous"}
     cats.each {|i| i.mood = "nervous"}
+    dogs.each {|i| i.owner = nil}
+
 
 
   end
