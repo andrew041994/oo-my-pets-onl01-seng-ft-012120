@@ -72,7 +72,12 @@ end
         i.mood = "nervous"
       end
     end
-    # cats.each {|i|i.mood = "nervous" && owner = nil}
+
+    cats.each do |i|
+      if i.mood != "nervous"
+        i.mood = "nervous"
+      end
+    end
   end
 
 
