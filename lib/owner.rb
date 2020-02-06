@@ -1,3 +1,10 @@
 class Owner
-  # code goes here
+  attr_accessor :name
+  :owners => [ ]
+  def initialize(name)
+    @name = name
+    :owners << @name
+  end
+
+
 end
