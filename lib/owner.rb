@@ -70,7 +70,7 @@ end
     dogs.each {|i| i.mood = "nervous"}
     cats.each {|i| i.mood = "nervous"}
 
-  
+
   end
 
 
